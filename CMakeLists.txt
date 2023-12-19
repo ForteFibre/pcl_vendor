@@ -31,4 +31,4 @@ endmacro()
 build_pcl()
 
 ament_export_include_directories(include)
-ament_package()
+ament_package(CONFIG_EXTRAS "pcl_vendor-extras.cmake")
